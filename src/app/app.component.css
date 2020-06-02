@@ -1,0 +1,19 @@
+:host {
+    display: grid;
+    grid-template-rows: 63px 1fr;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+app-navbar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.router-wrapper {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow: hidden;
+}
